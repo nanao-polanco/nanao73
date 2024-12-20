@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+#hud {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hud-element {
+    margin: 5px 0;
+}
